@@ -12,3 +12,10 @@ func TestAdd(t *testing.T) {
 		t.Errorf("Expected 5, got %d", result)
 	}
 }
+
+func TestAddTwo(t *testing.T) {
+	result := Add(2, 2)
+	if result != 4 {
+		t.Errorf("Expected 4, got %d", result)
+	}
+}

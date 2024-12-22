@@ -5,4 +5,5 @@ repos:
         name: Run Tests
         entry: go test ./...
         language: system
-        types: [go]
+        pass_filenames: false
+        always_run: true
